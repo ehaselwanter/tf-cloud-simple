@@ -1,5 +1,5 @@
 resource "random_string" "random" {
-  length           = var.my_var
+  length           = 7 # var.my_var
   special          = true
   override_special = "/@£$"
 }
